@@ -12,7 +12,7 @@ public class GithubTests {
     public void testCommits() throws IOException {
         Github github = new RtGithub("507c19d396b16e235ee8544657cdf350067af389");
         RepoCommits commits = github.repos()
-                .get(new Coordinates.Simple("AnastasiiaBocharnikova", "java_pft")).commits();
+                .get(new Coordinates.Simple("AnastasiiaBocharnikova", "new_repository")).commits();
 
         for (RepoCommit commit : commits.iterate(new ImmutableBiMap.Builder<String, String>().build())) {
             System.out.println(new RepoCommit.Smart(commit).message());
