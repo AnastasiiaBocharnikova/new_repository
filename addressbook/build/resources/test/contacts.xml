@@ -1,0 +1,62 @@
+<list>
+  <contact>
+    <firstname>first name 0</firstname>
+    <middlename>middle name 0</middlename>
+    <lastname>last name 0</lastname>
+    <nickname>nick name 0</nickname>
+    <title>title 0</title>
+    <company>company 0</company>
+    <address>address 0</address>
+    <homephone>home phone 0</homephone>
+    <mobile>mobile 0</mobile>
+    <workphone>workphone 0</workphone>
+    <email>email 0</email>
+    <email1>email1 0</email1>
+    <email2>email2 0</email2>
+    <bday>b-day 0</bday>
+    <bmonth>b-month 0</bmonth>
+    <byear>b-year 0</byear>
+    <group>test 1</group>
+    <photo>src/test/resources/Screenshot_1.png</photo>
+  </contact>
+  <contact>
+    <firstname>first name 1</firstname>
+    <middlename>middle name 1</middlename>
+    <lastname>last name 1</lastname>
+    <nickname>nick name 1</nickname>
+    <title>title 1</title>
+    <company>company 1</company>
+    <address>address 1</address>
+    <homephone>home phone 1</homephone>
+    <mobile>mobile 1</mobile>
+    <workphone>workphone 1</workphone>
+    <email>email 1</email>
+    <email1>email1 1</email1>
+    <email2>email2 1</email2>
+    <bday>b-day 1</bday>
+    <bmonth>b-month 1</bmonth>
+    <byear>b-year 1</byear>
+    <group>test 1</group>
+    <photo>src/test/resources/Screenshot_1.png</photo>
+  </contact>
+  <contact>
+    <firstname>first name 2</firstname>
+    <middlename>middle name 2</middlename>
+    <lastname>last name 2</lastname>
+    <nickname>nick name 2</nickname>
+    <title>title 2</title>
+    <company>company 2</company>
+    <address>address 2</address>
+    <homephone>home phone 2</homephone>
+    <mobile>mobile 2</mobile>
+    <workphone>workphone 2</workphone>
+    <email>email 2</email>
+    <email1>email1 2</email1>
+    <email2>email2 2</email2>
+    <bday>b-day 2</bday>
+    <bmonth>b-month 2</bmonth>
+    <byear>b-year 2</byear>
+    <group>test 1</group>
+    <photo>src/test/resources/Screenshot_1.png</photo>
+  </contact>
+</list>
