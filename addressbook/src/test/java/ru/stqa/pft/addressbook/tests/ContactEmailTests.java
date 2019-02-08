@@ -40,7 +40,7 @@ public class ContactEmailTests extends TestBase {
         }
     }
 
-    @Test
+    @Test(enabled = false)
     public void testContactEmail() {
         applicationManager.goTo().goToHomePage();
         ContactData contact = applicationManager.contact().all().iterator().next();

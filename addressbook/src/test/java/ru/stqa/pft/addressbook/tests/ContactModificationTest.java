@@ -40,7 +40,7 @@ public class ContactModificationTest extends TestBase {
         }
     }
 
-    @Test
+    @Test(enabled = false)
     public void testContactModification(){
         Contacts before = applicationManager.db().contacts();
         ContactData modifiedContact = before.iterator().next();
