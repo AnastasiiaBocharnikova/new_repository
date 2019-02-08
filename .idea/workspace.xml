@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="571d674f-b872-4aa8-af34-05f2d7edcf0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__axis_axis_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__axis_axis_wsdl4j_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__biz_futureware_mantis_mantis_axis_soap_client_1_2_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_discovery_commons_discovery_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_net_commons_net_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_mail_mail_1_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_axis_axis_jaxrpc_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_axis_axis_saaj_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_subethamail_subethasmtp_3_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ru_lanwen_verbalregex_java_verbal_expressions_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/mantis-tests.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/mantis-tests.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/mantis-tests.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/soap-sample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/soap-sample.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/soap-sample.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/github-sample/out/test/classes/ru/stqa/pft/github/GithubTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/github-sample/out/test/classes/ru/stqa/pft/github/GithubTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github-sample/src/test/java/ru/stqa/pft/github/GithubTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/github-sample/src/test/java/ru/stqa/pft/github/GithubTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/github-sample/.gradle/" />
     <ignored path="$PROJECT_DIR$/github-sample/build/" />
@@ -12,6 +32,12 @@
     <ignored path="$PROJECT_DIR$/addressbook/.gradle/" />
     <ignored path="$PROJECT_DIR$/addressbook/build/" />
     <ignored path="$PROJECT_DIR$/addressbook/out/" />
+    <ignored path="$PROJECT_DIR$/mantis-tests/.gradle/" />
+    <ignored path="$PROJECT_DIR$/mantis-tests/build/" />
+    <ignored path="$PROJECT_DIR$/mantis-tests/out/" />
+    <ignored path="$PROJECT_DIR$/soap-sample/.gradle/" />
+    <ignored path="$PROJECT_DIR$/soap-sample/build/" />
+    <ignored path="$PROJECT_DIR$/soap-sample/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +49,12 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/github-sample">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/mantis-tests">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/soap-sample">
       <ProjectState />
     </projectState>
   </component>
@@ -43,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/github-sample/src/test/java/ru/stqa/pft/github/GithubTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="152">
+              <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,11 +111,47 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="github-sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="github-sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="github-sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="github-sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="github-sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549554617805" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549616122930" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -167,9 +235,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HbConnectionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.HbConnectionTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.GithubTests" />
+        <item itemvalue="TestNG.HbConnectionTest" />
         <item itemvalue="TestNG.GithubTests.testCommits" />
         <item itemvalue="TestNG.GroupCreationTests (1)" />
         <item itemvalue="TestNG.GroupCreationTests" />
@@ -190,40 +275,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GithubTests - 2019.02.07 at 12h 52m 27s.xml">
-      <configuration name="GithubTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTests - 2019.02.07 at 12h 53m 31s.xml">
-      <configuration name="GroupCreationTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTests_(1) - 2019.02.07 at 12h 54m 07s.xml">
-      <configuration name="GroupCreationTests (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTests_(1) - 2019.02.07 at 13h 15m 51s.xml">
-      <configuration name="GroupCreationTests (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GithubTests_testCommits - 2019.02.07 at 13h 19m 02s.xml">
-      <configuration name="GithubTests.testCommits" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GithubTests_testCommits - 2019.02.07 at 13h 19m 37s.xml">
-      <configuration name="GithubTests.testCommits" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GithubTests - 2019.02.07 at 17h 08m 06s.xml">
-      <configuration name="GithubTests" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="GithubTests - 2019.02.07 at 17h 11m 59s.xml">
+      <configuration name="GithubTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GithubTests - 2019.02.07 at 17h 52m 03s.xml">
+      <configuration name="GithubTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GithubTests - 2019.02.07 at 17h 53m 23s.xml">
+      <configuration name="GithubTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GithubTests - 2019.02.07 at 17h 54m 32s.xml">
+      <configuration name="GithubTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GithubTests_testCommits - 2019.02.07 at 17h 55m 09s.xml">
+      <configuration name="GithubTests.testCommits" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HbConnectionTest - 2019.02.07 at 18h 12m 59s.xml">
+      <configuration name="HbConnectionTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GithubTests - 2019.02.07 at 18h 15m 48s.xml">
+      <configuration name="GithubTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GithubTests - 2019.02.08 at 10h 39m 15s.xml">
+      <configuration name="GithubTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GithubTests - 2019.02.08 at 10h 47m 57s.xml">
+      <configuration name="GithubTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GithubTests - 2019.02.08 at 10h 55m 03s.xml">
       <configuration name="GithubTests" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1440" height="821" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -232,8 +324,8 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.48725212" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -248,6 +340,18 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/github-sample/src/test/java/ru/stqa/pft/github/GithubTests.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/github-sample/gradlew">
       <provider selected="true" editor-type-id="text-editor">
@@ -255,9 +359,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/github-sample/gradle.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java">
@@ -277,10 +378,139 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0-beta1/d5b414d1f7480fe069e01ccadce1756f6a56a114/testng-7.0.0-beta1-sources.jar!/org/testng/internal/TestResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="e#4237#4238#0" expanded="true" />
+            <element signature="e#5166#5167#0" expanded="true" />
+            <element signature="e#5191#5192#0" expanded="true" />
+            <element signature="e#5284#5285#0" expanded="true" />
+            <element signature="e#5311#5312#0" expanded="true" />
+            <element signature="e#5757#5758#0" expanded="true" />
+            <element signature="e#5790#5791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0-beta1/d5b414d1f7480fe069e01ccadce1756f6a56a114/testng-7.0.0-beta1-sources.jar!/org/testng/internal/RegexpExpectedExceptionsHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.7/8a13905834c9fbaef243d7e841160729a88bf616/aspectjrt-1.8.7-sources.jar!/org/aspectj/runtime/internal/cflowstack/ThreadStackFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+          <folding>
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.7/8a13905834c9fbaef243d7e841160729a88bf616/aspectjrt-1.8.7-sources.jar!/org/aspectj/runtime/internal/CFlowCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#1377#1378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.7/8a13905834c9fbaef243d7e841160729a88bf616/aspectjrt-1.8.7-sources.jar!/org/aspectj/runtime/internal/AroundClosure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1306#1307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcabi/jcabi-github/1.0/ad819a9955da088a2c7f82f18c9c9582f9cd5cd8/jcabi-github-1.0-sources.jar!/com/jcabi/github/RtRepos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="e#3525#3526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcabi/jcabi-aspects/0.22.5/b1720eec05b51b32e98b6eafa89a8c2ec04cb486/jcabi-aspects-0.22.5-sources.jar!/com/jcabi/aspects/aj/MethodLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.7/8a13905834c9fbaef243d7e841160729a88bf616/aspectjrt-1.8.7-sources.jar!/org/aspectj/runtime/reflect/JoinPointImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="e#3128#3129#0" expanded="true" />
+            <element signature="e#3575#3576#0" expanded="true" />
+            <element signature="e#3596#3597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook/src/test/resources/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook/test-20190207T181258.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/github-sample/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-503">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.7/8a13905834c9fbaef243d7e841160729a88bf616/aspectjrt-1.8.7-sources.jar!/org/aspectj/runtime/reflect/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcabi/jcabi-github/1.0/ad819a9955da088a2c7f82f18c9c9582f9cd5cd8/jcabi-github-1.0-sources.jar!/com/jcabi/github/RtGithub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0-beta1/d5b414d1f7480fe069e01ccadce1756f6a56a114/testng-7.0.0-beta1-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="666" selection-start-line="666" selection-end-line="666" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/github-sample/src/test/java/ru/stqa/pft/github/GithubTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="152">
+          <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -339,7 +569,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>addressbook</last-edited>
+          <last-edited>soap-sample</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
