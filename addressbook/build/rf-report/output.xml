@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generator="Robot 3.1.1 (Jython 2.7.0 on java1.8.0_201)" generated="20190212 10:12:37.644">
+<suite source="/Users/anastasiia/Repos/new_repository/addressbook/src/test/resources/rf" name="Rf" id="s1">
+<suite source="/Users/anastasiia/Repos/new_repository/addressbook/src/test/resources/rf/groups.robot" name="Groups" id="s1-s1">
+<kw type="setup" name="Init Application Manager">
+<msg level="FAIL" timestamp="20190212 10:12:37.904">No keyword with name 'Init Application Manager' found.</msg>
+<status endtime="20190212 10:12:37.906" starttime="20190212 10:12:37.903" status="FAIL"></status>
+</kw>
+<test name="Can Create Group With Valid Data" id="s1-s1-t1">
+<status critical="yes" endtime="20190212 10:12:37.910" starttime="20190212 10:12:37.907" status="FAIL">Parent suite setup failed:
+No keyword with name 'Init Application Manager' found.</status>
+</test>
+<kw type="teardown" name="Stop Application Manager">
+<msg level="FAIL" timestamp="20190212 10:12:37.922">No keyword with name 'Stop Application Manager' found.</msg>
+<status endtime="20190212 10:12:37.923" starttime="20190212 10:12:37.920" status="FAIL">No keyword with name 'Stop Application Manager' found.</status>
+</kw>
+<status endtime="20190212 10:12:37.925" starttime="20190212 10:12:37.860" status="FAIL">Suite setup failed:
+No keyword with name 'Init Application Manager' found.
+
+Also suite teardown failed:
+No keyword with name 'Stop Application Manager' found.</status>
+</suite>
+<status endtime="20190212 10:12:37.930" starttime="20190212 10:12:37.654" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" name="Rf" id="s1">Rf</stat>
+<stat pass="0" fail="1" name="Groups" id="s1-s1">Rf.Groups</stat>
+</suite>
+</statistics>
+<errors>
+<msg level="ERROR" timestamp="20190212 10:12:37.884">Error in file '/Users/anastasiia/Repos/new_repository/addressbook/src/test/resources/rf/groups.robot': Importing test library 'ru.stqa.pft.addressbook.rf.AddressbookKeywords' failed: ImportError: No module named ru
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.robotframework/robotframework/3.1.1/75237dd3249565059867da64b1e62c99257e8665/Lib
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.robotframework/robotframework/3.1.1/75237dd3249565059867da64b1e62c99257e8665/robotframework-3.1.1.jar/Lib
+  __classpath__
+  __pyclasspath__/
+CLASSPATH:
+  /Users/anastasiia/Repos/new_repository/addressbook/build/classes/java/test
+  /Users/anastasiia/Repos/new_repository/addressbook/build/resources/test
+  /Users/anastasiia/Repos/new_repository/addressbook/build/classes/java/main
+  /Users/anastasiia/Repos/new_repository/addressbook/build/resources/main
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0-beta1/a1e3e1e6e93bd6aa5d1c7a1ff272d6807be67d3/testng-7.0.0-beta1.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-java/3.141.59/e8e20b741299cb8ffedbd2925a3ab69d08b41063/selenium-java-3.141.59.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.hamcrest/java-hamcrest/2.0.0.0/f1c8853ade0ecf707f5a261c830e98893983813/java-hamcrest-2.0.0.0.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.72/6375e521c1e11d6563d4f25a07ce124ccf8cd171/jcommander-1.72.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.11.1/6c120c45a8c480bb2fea5b56502e3993ddd74fd2/xstream-1.4.11.1.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.immutables/gson/2.7.5/8923ad29f8660026c1967ca6cb0b812526e8ee4d/gson-2.7.5.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.3.0-alpha4/2cd967bc8fbd5e5ebbb93abd0b254b1eaf90e471/logback-classic-1.3.0-alpha4.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/8.0.15/1cd928d0f1a93563993ce1d8b468217ea0d19b11/mysql-connector-java-8.0.15.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.4.0.Final/70ec4c8742c53bc018610ec001bd90837d54ee2b/hibernate-core-5.4.0.Final.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.robotframework/robotframework/3.1.1/75237dd3249565059867da64b1e62c99257e8665/robotframework-3.1.1.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/3.141.59/67137314736c6a2f39a8aa59a562e9616ae5f77e/selenium-chrome-driver-3.141.59.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-edge-driver/3.141.59/fc09c66f2d0b33b0816d770761ad1d599ef0df29/selenium-edge-driver-3.141.59.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/3.141.59/a99f2fe2a42747ed9809d4f62f51a9e1b336dde8/selenium-firefox-driver-3.141.59.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-ie-driver/3.141.59/677b9b414a3a9bb2aeea89042a7b326edeb13a82/selenium-ie-driver-3.141.59.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-opera-driver/3.141.59/6b11ed01182bfd8bb62ddeae34cf9eadd3cfc7ff/selenium-opera-driver-3.141.59.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-safari-driver/3.141.59/a32b5b88f46ea4b0356079f0d2e2217543923046/selenium-safari-driver-3.141.59.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.141.59/8735de5049acf0e761defc65ee5837d6541abaf5/selenium-support-3.141.59.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.141.59/1c79ca890c312ff9916bd95df4f0c5182ec722d8/selenium-remote-driver-3.141.59.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.141.59/e006ffd3aa7841e6e9125d9e6691b3a6b7592b05/selenium-api-3.141.59.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.9.5/38ceb06ae54ba0524d14a85fe84ed03aecef5078/byte-buddy-1.9.5.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.3/8dfb9facd0830a27b1b5f29f84593f0aeee7773b/commons-exec-1.3.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/25.0-jre/7319c34fa5866a85b6bad445adad69d402323129/guava-25.0-jre.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.11.0/75966e05a49046ca2ae734e5626f28837a8d1e82/okhttp-3.11.0.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/xmlpull/xmlpull/1.1.3.1/2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa/xmlpull-1.1.3.1.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/xpp3/xpp3_min/1.1.4c/19d4e90b43059058f6e056f794f0ea4030d60b86/xpp3_min-1.1.4c.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.3.0-alpha4/3ec023a0068a02e5d4697fce3435562348d3d478/logback-core-1.3.0-alpha4.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.8.0-beta1/5b73bc22c748b52670e573842f98f2c9fa81be15/slf4j-api-1.8.0-beta1.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/com.sun.mail/javax.mail/1.6.0/a055c648842c4954c1f7db7254f45d9ad565e278/javax.mail-1.6.0.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.6.1/d06d46ecfd92ec6d0f3b423b4cd81cb38d8b924/protobuf-java-3.6.1.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.1.0.Final/700aeedc4a2089816621948f0379e17cbd17d5db/hibernate-commons-annotations-5.1.0.Final.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.2.Final/3789d00e859632e6c6206adc0c71625559e6e3b0/jboss-logging-3.3.2.Final.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/javax.persistence/javax.persistence-api/2.2/25665ac8c0b62f50e6488173233239120fc52c96/javax.persistence-api-2.2.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.24.0-GA/d7466fc2e3af7c023e95c510f06448ad29b225b3/javassist-3.24.0-GA.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/a8485cab9484dda36e9a8c319e76b5cc18797b58/jboss-transaction-api_1.2_spec-1.1.1.Final.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/2.0.5.Final/7060f67764565b9ee9d467e3ed0cb8a9c601b23a/jandex-2.0.5.Final.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.4/3d5f48f10bbe4eb7bd862f10c0583be2e0053c6/classmate-1.3.4.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/2.3.1/dd6dda9da676a54c5b36ca2806ff95ee017d8738/jaxb-runtime-2.3.1.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.3.1/8531ad5ac454cc2deb9d4d32c40c4d7451939b5d/jaxb-api-2.3.1.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/85262acf3ca9816f9537ca47d5adeabaead7cb16/javax.activation-api-1.2.0.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.dom4j/dom4j/2.1.1/3dce5dbb3571aa820c677fadd8349bfa8f00c199/dom4j-2.1.1.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-compat-qual/2.0.0/fc89b03860d11d6213d0154a62bcd1c2f69b9efa/checker-compat-qual-2.0.0.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.1.3/39b109f2cd352b2d71b52a3b5a1a9850e1dc304b/error_prone_annotations-2.1.3.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.14/775b7e22fb10026eed3f86e8dc556dfafe35f2d5/animal-sniffer-annotations-1.14.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/2.3.1/a09d2c48d3285f206fafbffe0e50619284e92126/txw2-2.3.1.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/3.0.7/c197c86ceec7318b1284bffb49b54226ca774003/istack-commons-runtime-3.0.7.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/org.jvnet.staxex/stax-ex/1.8/8cc35f73da321c29973191f2cf143d29d26a1df7/stax-ex-1.8.jar
+  /Users/anastasiia/.gradle/caches/modules-2/files-2.1/com.sun.xml.fastinfoset/FastInfoset/1.2.15/bb7b7ec0379982b97c62cd17465cb6d9155f68e8/FastInfoset-1.2.15.jar</msg>
+</errors>
+</robot>

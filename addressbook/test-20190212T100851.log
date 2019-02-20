@@ -1,0 +1,26 @@
+178  [MainThread] DEBUG o.p.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+196  [MainThread] DEBUG o.p.n.u.internal.PlatformDependent0 - java.nio.Buffer.address: available
+197  [MainThread] DEBUG o.p.n.u.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+198  [MainThread] DEBUG o.p.n.u.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+198  [MainThread] DEBUG o.p.n.u.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+198  [MainThread] DEBUG o.p.n.u.internal.PlatformDependent - Java version: 8
+199  [MainThread] DEBUG o.p.n.u.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+199  [MainThread] DEBUG o.p.n.u.internal.PlatformDependent - sun.misc.Unsafe: available
+199  [MainThread] DEBUG o.p.n.u.internal.PlatformDependent - -Dio.netty.noJavassist: false
+257  [MainThread] DEBUG o.p.n.u.internal.PlatformDependent - Javassist: available
+257  [MainThread] DEBUG o.p.n.u.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/kc/6q8v6v7d75n2kfyt9byf881w0000gn/T (java.io.tmpdir)
+257  [MainThread] DEBUG o.p.n.u.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+257  [MainThread] DEBUG o.p.n.u.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+257  [MainThread] DEBUG o.p.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+257  [MainThread] DEBUG o.p.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+257  [MainThread] DEBUG o.p.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+257  [MainThread] DEBUG o.p.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+257  [MainThread] DEBUG o.p.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+257  [MainThread] DEBUG o.p.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+257  [MainThread] DEBUG o.p.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+257  [MainThread] DEBUG o.p.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+258  [MainThread] DEBUG o.p.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+258  [MainThread] DEBUG o.p.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+279  [MainThread] DEBUG o.p.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+319  [MainThread] DEBUG o.p.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+319  [MainThread] DEBUG o.p.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
